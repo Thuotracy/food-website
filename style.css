@@ -16,3 +16,14 @@ p{
     font-size: 300;
     color: black;
 }
+
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://st3.depositphotos.com/1558912/19061/i/1600/depositphotos_190618708-stock-photo-italian-food-background-on-white.jpg);
+    background-size: cover;
+}
