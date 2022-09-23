@@ -11,14 +11,16 @@ h1{
     color: green;
     font-size: 5.5em;
     position: relative;
-    top: -150px;
+    top: -100px;
+    left: -200px;
 }
 
 p{
     font-size: 300;
     color: black;
     position: relative;
-    top: -130px;
+    top: -100px;
+    left: -200px;
 }
 
 .banner{
@@ -30,4 +32,18 @@ p{
     align-items: center;
     background: url(https://st3.depositphotos.com/1558912/19061/i/1600/depositphotos_190618708-stock-photo-italian-food-background-on-white.jpg);
     background-size: cover;
+}
+
+.button{
+   font-size: 1em;
+   color: white;
+   background: green;
+   display: inline-block;
+   padding: 10px 30px;
+   margin-top: 20px;
+   text-transform: uppercase;
+   text-decoration: none;
+   letter-spacing: 2px; 
+   position: relative;
+   top: -90px;
 }
