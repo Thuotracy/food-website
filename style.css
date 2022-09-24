@@ -7,6 +7,10 @@
     box-sizing: border-box;   
 }
 
+body{
+    min-height: 1000px;
+}
+
 h1{
     color: green;
     font-size: 5.5em;
