@@ -11,7 +11,7 @@ h1{
     color: green;
     font-size: 5.5em;
     position: relative;
-    top: -100px;
+    top: -60px;
     left: -200px;
 }
 
@@ -19,7 +19,7 @@ p{
     font-size: 300;
     color: black;
     position: relative;
-    top: -100px;
+    top: -50px;
     left: -200px;
 }
 
@@ -44,6 +44,11 @@ p{
    text-transform: uppercase;
    text-decoration: none;
    letter-spacing: 2px; 
+   transition: 0.5s;
    position: relative;
-   top: -90px;
+   top: -30px;
+}
+
+.button:hover{
+    letter-spacing: 6px;
 }
