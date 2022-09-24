@@ -15,7 +15,7 @@ h1{
     color: green;
     font-size: 5.5em;
     position: relative;
-    top: -60px;
+    top: -10px;
     left: -200px;
 }
 
@@ -23,7 +23,7 @@ p{
     font-size: 300;
     color: black;
     position: relative;
-    top: -50px;
+    top: 10px;
     left: -200px;
 }
 
@@ -50,7 +50,7 @@ p{
    letter-spacing: 2px; 
    transition: 0.5s;
    position: relative;
-   top: -30px;
+   top: 40px;
    border-radius: 20px;
 }
 
@@ -75,6 +75,12 @@ header{
     transition: 0.5s;
 }
 
+header.sticky{
+    background: white;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
 header .logo{
     color: green;
     font-weight: 700;
@@ -96,4 +102,10 @@ header .navigation li a{
     text-decoration: none;
     color: green;
     font-weight: 500;
+}
+
+header .navigation li a:hover{
+    color: black;
+    transition: 0.5s;
+    letter-spacing: 3px;
 }
