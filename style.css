@@ -157,3 +157,33 @@ h2{
     align-items: center;
     flex-direction: column;
 }
+
+.menu .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.menu .content .box{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid white;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+
+.menu .content .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.menu .content .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
