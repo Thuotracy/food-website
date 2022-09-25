@@ -138,3 +138,14 @@ h2{
     left: 200px;
     object-fit: cover;
 }
+
+.food{
+    position: relative;
+    top: 300px;
+}
+
+.paragraph3{
+    position: relative;
+    top: 320px;
+    text-align: center;
+}
