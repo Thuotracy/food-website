@@ -139,7 +139,7 @@ h2{
     object-fit: cover;
 }
 
-/* .food{
+.food{
     position: relative;
     top: 300px;
 }
@@ -148,7 +148,7 @@ h2{
     position: relative;
     top: 320px;
     text-align: center;
-} */
+}
 
 /* .title{
     width: 100%;
