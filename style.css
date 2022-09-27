@@ -292,13 +292,6 @@ border: 3px solid green;
     flex-direction: column;
  }
 
- /* .reviews .container .cube .imgBx{
-    position: relative;
-    width: 80px;
-    height: 80px;
-    margin-bottom: 20px;
-    border-radius: 50%;
- } */
 
  .reviews .container .cube img{
     position: relative;
@@ -311,16 +304,6 @@ border: 3px solid green;
     object-fit: cover;
  }
 
- /* .container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 1200px;
-    transform-style: preserve-3d;
-} */
-
 .container .cube{
     position: relative;
     top: 500px;
@@ -330,7 +313,6 @@ border: 3px solid green;
     background: rgba(0, 128, 0, 0.678);
     border-radius: 20px;
 }
-
 
 .container .cube .name{
     position: absolute;
