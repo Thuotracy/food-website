@@ -294,5 +294,17 @@ border: 3px solid green;
  }
 
  .reviews .content .cube .imgBx{
-    
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+ }
+
+ .reviews .content .cube .imgBx img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
  }
