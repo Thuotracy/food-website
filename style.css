@@ -292,20 +292,23 @@ border: 3px solid green;
     flex-direction: column;
  }
 
- .reviews .container .cube .imgBx{
+ /* .reviews .container .cube .imgBx{
     position: relative;
     width: 80px;
     height: 80px;
     margin-bottom: 20px;
     border-radius: 50%;
- }
+ } */
 
  .reviews .container .cube img{
     position: relative;
+    top: 20px;
+    left: 10px;
     width: 80px;
     height: 80px;
     margin-bottom: 20px;
     border-radius: 50%;
+    object-fit: cover;
  }
 
  /* .container{
@@ -324,7 +327,7 @@ border: 3px solid green;
     width: 300px;
     height: 400px;
     margin: 40px;
-    background: rgba(0, 128, 0, 0.4);
+    background: rgba(0, 128, 0, 0.678);
     border-radius: 20px;
 }
 
@@ -340,21 +343,12 @@ border: 3px solid green;
 
 .container .cube p{
     position: relative;
-    top: 50px;
+    top: -20px;
     left: 0;
     text-align: center;
     color: black;
     width: 50%; 
 }
 
-.container .cube img{
-    position: absolute;
-    
-    top: 50%;
-    left: 50%;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-}
+
 
