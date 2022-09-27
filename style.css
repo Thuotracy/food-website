@@ -274,7 +274,7 @@ border: 3px solid green;
     text-align: center;
  }
 
- .reviews .content{
+ .reviews .container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -282,18 +282,17 @@ border: 3px solid green;
     margin-top: 40px;
  }
 
- .reviews .content .cube{
+ .reviews .container .cube{
     width: 340px;
     margin: 20px;
     padding: 40px;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
  }
 
- .reviews .content .cube .imgBx{
+ .reviews .container .cube .imgBx{
     position: relative;
     width: 80px;
     height: 80px;
@@ -301,10 +300,61 @@ border: 3px solid green;
     border-radius: 50%;
  }
 
- .reviews .content .cube .imgBx img{
+ .reviews .container .cube img{
     position: relative;
     width: 80px;
     height: 80px;
     margin-bottom: 20px;
     border-radius: 50%;
  }
+
+ /* .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    transform-style: preserve-3d;
+} */
+
+.container .cube{
+    position: relative;
+    top: 500px;
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    background: rgba(0, 128, 0, 0.4);
+    border-radius: 20px;
+}
+
+
+.container .cube .name{
+    position: absolute;
+    top: 350px;
+    left: 0;
+    text-align: center;
+    color: black;
+    width: 100%;   
+}
+
+.container .cube p{
+    position: relative;
+    top: 50px;
+    left: 0;
+    text-align: center;
+    color: black;
+    width: 50%; 
+}
+
+.container .cube img{
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
