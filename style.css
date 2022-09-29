@@ -192,13 +192,13 @@ h2{
 
 
 .box{
-position: relative;
-top: 450px;
-left: 450px;
-width: 200px;
-height: 200px;
-transform-style: preserve-3d;
-animation: animate 20s linear infinite;
+    position: relative;
+    top: 450px;
+    left: 450px;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: animate 20s linear infinite;
 }
 
 @keyframes animate{
@@ -212,77 +212,101 @@ animation: animate 20s linear infinite;
 }
 
 .box span{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-transform-origin: center;
-transform-style: preserve-3d;
-transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
--webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0004)
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0004)
 }
 
 .box span img{
-width: 300px;
-height: 300px;
-object-fit: cover;     
+    width: 300px;
+    height: 300px;
+    object-fit: cover;     
 }
 
 .box span img{
-position: absolute;
-top: 0;
-left: 0; 
-width: 100%;
-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
 }
 
 .button1{
-font-size: 1em;
-color: white;
-background: green;
-display: inline-block;
-padding: 10px 30px;
-margin-top: 20px;
-text-transform: uppercase;
-text-decoration: none;
-letter-spacing: 2px; 
-transition: 0.5s;
-position: relative;
-top: 600px;
-left: 465px;
-border-radius: 20px;
- }
+    font-size: 1em;
+    color: white;
+    background: green;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px; 
+    transition: 0.5s;
+    position: relative;
+    top: 600px;
+    left: 465px;
+    border-radius: 20px;
+}
  
- .button1:hover{
-letter-spacing: 6px;
-color: green;
-background-color: white;
-border-radius: 20px;
-border: 3px solid green;
- }
+.button1:hover{
+    letter-spacing: 6px;
+    color: green;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid green;
+}
 
 .testimonials {
     position: relative;
     top: 450px;
- }
+}
 
 .paragraph4{
     position: relative;
     top: 470px;
     left: 10px;
     text-align: center;
- }
+}
 
- .reviews .container{
+.container{
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+}
+
+.cards{
+  margin: 0 -5px;
+}
+
+/* .cards:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+
+.reviews .container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 40px;
- }
+} 
+ 
+/* .cards {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+} */
 
- .reviews .container .cube{
+.reviews .container .cube{
     width: 340px;
     margin: 20px;
     padding: 40px;
@@ -290,10 +314,10 @@ border: 3px solid green;
     justify-content: center;
     align-items: center;
     flex-direction: column;
- }
+}
 
 
- .reviews .container .cube img{
+.reviews .container .cube img{
     position: relative;
     top: 20px;
     left: 10px;
@@ -302,7 +326,7 @@ border: 3px solid green;
     margin-bottom: 20px;
     border-radius: 50%;
     object-fit: cover;
- }
+}
 
 .container .cube{
     position: relative;
@@ -331,6 +355,7 @@ border: 3px solid green;
     color: black;
     width: 50%; 
 }
+
 
 
 
