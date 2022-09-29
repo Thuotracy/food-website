@@ -284,11 +284,11 @@ h2{
   margin: 0 -5px;
 }
 
-/* .cards:after {
+.cards:after {
     content: "";
     display: table;
     clear: both;
-} */
+}
 
 
 .reviews .container{
@@ -353,7 +353,7 @@ h2{
     left: 0;
     text-align: center;
     color: black;
-    width: 50%; 
+    width: 250px; 
 }
 
 
