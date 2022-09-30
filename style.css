@@ -369,6 +369,18 @@ h2{
     /* text-align: center; */
 }
 
+.contact{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background: url(https://images.pexels.com/photos/1449773/pexels-photo-1449773.jpeg?auto=compress&cs=tinysrgb&w=400);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 
 
