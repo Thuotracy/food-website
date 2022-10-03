@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOOD HUT</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <a href="#" class="logo">Food</a>
+        <a href="#" class="logo"><i class="fa fa-home" aria-hidden="true"></i></a>
         <ul class="navigation">
             <li><a href="#banner">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -159,7 +161,7 @@
 
     <section>
         <h2 class="food" id="menu">Menu</h2>
-        <p class="paragraph3">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        <p class="paragraph3">Move the mouse to view the menu</p>
         <div class="box">
             <span style="--i:1"><img src="image/salad.jpg"></span>
             <span style="--i:2"><img src="image/salad1.jpg"></span>
@@ -178,10 +180,10 @@
         </div>
     </section>
 
-    <section class="reviews" id="reviews">
+    <section class="reviews">
         <div class="title white">
             <h2 class="testimonials">Reviews</h2>
-            <p class="paragraph4">What our customers say about us</p>
+            <p class="paragraph4"  id="reviews">What our customers say about us</p>
         </div>
 
         <div class="cards">
@@ -217,11 +219,11 @@
         </div>
     </section>
 
-    <section class="contact" id="contact">
+    <section class="contact">
         <div class="title white">
             <h2>Contact</h2>
             <p class="paragraph5">What our customers say about us</p>
-            <img src="image/restuarant.jpg" alt="">
+            <img id="contact" src="image/restuarant.jpg" alt="">
         </div>
 
         <div class="contactForm">
@@ -233,10 +235,10 @@
                 <input type="text" placeholder="Email">
             </div>
             <div class="inputBox">
-                <textarea placeholder="Name"></textarea>
+                <textarea placeholder="Subject"></textarea>
             </div>
             <div class="inputBox">
-                <input type="submit" value="submit">
+                <a href="#" class="button2">Submit</a>
             </div>
         </div>
     </section>    

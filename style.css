@@ -13,6 +13,11 @@ body{
     /* overflow: hidden; */
 }
 
+/* .logo{
+    height: 20px;
+    width: 20px;
+} */
+
 h1{
     color: green;
     font-size: 5.5em;
@@ -136,6 +141,7 @@ h2{
     height: 420px;
     position: absolute;
     left: 200px;
+    top: 730px;
     object-fit: cover;
 }
 
@@ -198,10 +204,11 @@ h2{
     width: 200px;
     height: 200px;
     transform-style: preserve-3d;
-    animation: animate 20s linear infinite;
+    transform: perspective(1000px) rotateY(0deg);
+    /* animation: animate 20s linear infinite; */
 }
 
-@keyframes animate{
+/* @keyframes animate{
     0%{
         transform: perspective(1000px) rotateY(0deg);
     }
@@ -209,7 +216,7 @@ h2{
     100%{
         transform: perspective(1000px) rotateY(360deg);
     }
-}
+} */
 
 .box span{
     position: absolute;
@@ -423,6 +430,23 @@ h2{
     font-size: 16px;
     font-weight: 300;
     resize: none;
+}
+
+.button2{
+    font-size: 1em;
+    color: white;
+    background: green;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px; 
+    transition: 0.5s;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border-radius: 20px; 
 }
 
 
