@@ -341,7 +341,7 @@ h2{
     width: 300px;
     height: 400px;
     margin: 40px;
-    background: rgba(0, 128, 0, 0.678);
+    background: #008000;
     border-radius: 20px;
 }
 
@@ -447,6 +447,20 @@ h2{
     top: 10px;
     left: 100px;
     border-radius: 20px; 
+}
+
+footer{
+    position: relative;
+    bottom: -600px;
+    background: green;
+    min-height: 100px;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social_icons{
+
 }
 
 
