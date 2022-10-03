@@ -364,23 +364,66 @@ h2{
 .paragraph5
 {
     position: absolute;
-    top: 730px;
+    top: 400px;
     left: 500px;
     /* text-align: center; */
+}
+
+ img{
+    position: relative;
+    height: 400px;
+    width: 500px;
+    top: 30px;
 }
 
 .contact{
     position: relative;
     width: 100%;
     min-height: 100vh;
+    z-index: 1;
+    top: 600px;
     /* display: flex; */
     justify-content: center;
     align-items: center;
-    background: url(https://images.pexels.com/photos/1449773/pexels-photo-1449773.jpeg?auto=compress&cs=tinysrgb&w=400);
+    /* background: url(https://images.pexels.com/photos/1449773/pexels-photo-1449773.jpeg?auto=compress&cs=tinysrgb&w=400); */
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.contactForm{
+    position: absolute;
+    top: 480px;
+    left: 700px;
+    padding: 30px 50px;
+    background: white;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+    max-width: 500px;
+}
+
+.contactForm h3{
+    color: green;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: white;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
 
 
 
