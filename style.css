@@ -520,7 +520,7 @@ footer .wave{
     width: 100%;
     height: 100px;
     background: url(image/wave1.png);
-    background-size: 3000px 100px;
+    background-size: 4000px 100px;
     /* background-repeat: no-repeat; */
 }
 
@@ -529,37 +529,16 @@ footer .wave#wave1{
     z-index: 1000;
     opacity: 1;
     bottom: 0;
-    animation: animateWave 4s linear infinite;
+    /* animation: animateWave 4s linear infinite; */
 }
 
-footer .wave#wave2{
-    z-index: 999;
-    opacity: 0.5;
-    bottom: 10px;
-    animation: animateWave_02 4s linear infinite;
-}
 
 @keyframes animateWave{
     0%{
-        background-position-x: 3000px;
+        background-position-x: 4000px;
     }
     100%{
         background-position-x: 0px;
-    }
-}
-
-@keyframes animateWave_02{
-    0%{
-        background-position-x: 0px;
-    }
-    100%{
-        background-position-x: 3000px;
-    }
-}
-
-@media (max-width: 991px){
-    header{
-        padding: 10px 20px;
     }
 }
 
