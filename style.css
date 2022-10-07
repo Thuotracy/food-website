@@ -10,13 +10,7 @@
 
 body{
     min-height: 1000px;
-    /* overflow: hidden; */
 }
-
-/* .logo{
-    height: 20px;
-    width: 20px;
-} */
 
 h1{
     color: green;
@@ -146,6 +140,25 @@ h2{
     max-width: 100%;
 }
 
+.img1:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
 .food{
     position: relative;
     top: 300px;
@@ -157,46 +170,6 @@ h2{
     left: 10px;
     text-align: center;
 }
-
-/* .title{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.menu .content{
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    margin-top: 40px;
-}
-
-.menu .content .box{
-    width: 300px;
-    margin: 20px;
-    border: 15px solid white;
-    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
-}
-
-.menu .content .box .imgBx{
-    position: relative;
-    width: 100%;
-    height: 300px;
-}
-
-.menu .content .box .imgBx img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
-
-
 
 .box{
     position: relative;
@@ -293,13 +266,6 @@ h2{
   margin: 0 -5px;
 }
 
-/* .cards:after {
-    content: "";
-    display: table;
-    clear: both;
-} */
-
-
 .reviews .container{
     display: flex;
     justify-content: center;
@@ -307,13 +273,6 @@ h2{
     flex-direction: row;
     margin-top: 40px;
 } 
- 
-/* .cards {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
-} */
 
 .reviews .container .cube{
     width: 340px;
@@ -375,15 +334,33 @@ h2{
     position: absolute;
     top: 400px;
     left: 500px;
-    /* text-align: center; */
 }
 
- img{
+.img2{
     position: relative;
     height: 400px;
     width: 500px;
     top: 30px;
 }
+
+.img2:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
 
 .contact{
     position: relative;
@@ -391,10 +368,8 @@ h2{
     min-height: 100vh;
     z-index: 1;
     top: 600px;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
-    /* background: url(https://images.pexels.com/photos/1449773/pexels-photo-1449773.jpeg?auto=compress&cs=tinysrgb&w=400); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -521,7 +496,6 @@ footer .wave{
     height: 100px;
     background: url(image/wave1.png);
     background-size: 4000px 100px;
-    /* background-repeat: no-repeat; */
 }
 
 
