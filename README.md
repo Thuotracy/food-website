@@ -1,2 +1,2 @@
 # food-website
-Restaurant website
+Restaurant website.
