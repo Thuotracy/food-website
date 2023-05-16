@@ -1,7 +1,7 @@
 # RESTUARANT WEBSITE
 
 ## Description
-A toaster animation pure CSS.
+A restuarant landing page.
 
 ## Live link
 https://thuotracy.github.io/toaster-animation/
