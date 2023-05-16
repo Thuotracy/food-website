@@ -4,7 +4,7 @@
 A restuarant landing page.
 
 ## Live link
-https://thuotracy.github.io/toaster-animation/
+https://thuotracy.github.io/food-website/
 
 ## Technologies Used
 * HTML
