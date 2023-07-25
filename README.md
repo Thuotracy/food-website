@@ -1,6 +1,6 @@
 # RESTUARANT WEBSITE
 ## Description
-A restuarant landing page
+A restuarant landing page.
 
 ## Live link
 https://thuotracy.github.io/food-website/
